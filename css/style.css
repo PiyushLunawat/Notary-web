@@ -9,7 +9,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #e6ce77;;
+  color: #e6ce77;
 }
 
 
@@ -392,7 +392,7 @@ a:hover {
 ======================================*/
 
 .navbar-b {
-  background-color: #1a1a1a;
+  background-color: black;
   transition: all .5s ease-in-out;
   /* background-color: transparent; */
   padding-top: 1.563rem;
@@ -466,7 +466,7 @@ a:hover {
 
 
 .navbar-b.navbar-trans .nav-link:hover {
-  color: #ffffff;;
+  color: #e6ce77;
 }
 
 
@@ -493,14 +493,14 @@ a:hover {
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: black;
+  color: gold;
 }
 
 .navbar-b.navbar-reduce .show > .nav-link,
 .navbar-b.navbar-reduce .active > .nav-link,
 .navbar-b.navbar-reduce .nav-link.show,
 .navbar-b.navbar-reduce .nav-link.active {
-  color: #000000;
+  color: #0078ff;
 }
 
 .navbar-b.navbar-reduce .navbar-brand {

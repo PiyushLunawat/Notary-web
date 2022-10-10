@@ -9,6 +9,11 @@
   <meta name="description" content="">
   <meta name="page_type" content="np-template-header-footer-from-plugin">
   <title>Home</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/assets/owl.carousel.min.css'>
+<link rel='stylesheet' href='http://themes.audemedia.com/html/goodgrowth/css/owl.theme.default.min.css'>
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -26,7 +31,20 @@
     href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
   <link id="u-page-google-font" rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Libraries CSS Files -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
   
+    <!-- Main Stylesheet File -->
+    <link href="Notary-Nav-main/css/style.css" rel="stylesheet">
+
+
     <script type="application/ld+json">{
 		"@context": "http://schema.org",
 		"@type": "Organization",
@@ -64,9 +82,75 @@
   ">
   
     <div class="u-section-rows">
-      <iframe src="Notary-Nav-main/index.html" title="Navbar" width="100%" height="100%" style="margin-bottom: -58px;"></iframe>
-     
-     
+
+
+      
+     <section classname="Nav-bar">
+      <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+  
+        <div class="container">
+          <img src="Notary-Nav-main/logo11.png" class="u-logo-image u-logo-image-1 shift" style="
+                  height: 144px;
+    width: 170px;
+    margin-left: -45px;
+    padding-top: 53px;
+    margin-bottom: -6px;
+                "> 
+          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+            aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="navbar-collapse collapse justify-content-end" id="navbarDefault" style="margin-bottom: -20px; margin-top: -10px;">
+            
+            <ul class="navbar-nav">
+              <li class=" nav-item" style="margin-top: -4px;">
+                <a class="nav-link js-scroll active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Services    
+                </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>             
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll active" href="../#testimonial" style="padding: 10px 0px;border-color: #000000!important;">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll"  href="../Notary-Fees-main/index.html" style="padding: 10px 0px;">Notary Fees</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll" href="../#myservices" style="padding: 10px 0px;">Schedule Now</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll" href="../Notary-Contact-main/index.html" style="padding: 10px 0px;">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+     </section>
+       <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/popper/popper.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/counterup/jquery.waypoints.min.js"></script>
+  <script src="lib/counterup/jquery.counterup.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/typed/typed.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="Notary-Nav-main/js/main.js"></script>
      
       
       <div class="u-palette-1-base u-section-row u-section-row-2" id="sec-37e8" style="height:181px;">
@@ -131,7 +215,7 @@
                 margin-top:-286px;
                 color:#e6ce77;
                 " data-animation-direction="" > Anywhere, Anytime->Notary Servies!</h2>
-              <h6 class="u-custom-font u-text u-text-font u-text-2">Joan text -> The Future of Notary and Signing Agent Services</h6>
+              <h6 class="u-custom-font u-text u-text-font u-text-2" style="color: #e6ce77;">Joan text -> The Future of Notary and Signing Agent Services</h6>
               <a href="https://www.thenotary.app"
                 class="u-active-white u-border-2 u-border-palette-4-base u-btn u-btn-round  u-button-style u-hover-white u-palette-4-base u-radius-7 u-btn-1"
                 target="_blank" style=" background-color:#e6ce77!important;">About US/Schedule a review</a>
@@ -146,7 +230,7 @@
               src="">
               <img class="u-image u-image-contain u-image-default img11 u-image-1" src="images/imagetesnsion1.png" alt=""
                 data-image-width="1005" data-image-height="1080" data-animation-name="rollIn"
-                data-animation-duration="1000" data-animation-direction="" style=" margin-top:-265px;">
+                data-animation-duration="1000" data-animation-direction="" style=" margin-top:-42%;">
             </div>
             
           </div>
@@ -399,7 +483,7 @@
                 </svg></span>
               <h5 class="u-custom-font u-font-montserrat u-text u-text-3"> Power of Attorney&nbsp;<br>
               </h5>
-              <p class="u-text u-text-4">We protect vehicles, property, pets and events.<br>
+              <p class="u-text u-text-4 u-section-2 u-list-item-2 u-list-item-2 u-list-item-2">We protect vehicles, property, pets and events.<br>
               </p>
               <!-- <a href="https://calendly.com/thenotaryapp/30min"
                 class="u-active-white u-border-2 u-border-palette-4-base u-btn u-btn-round u-button-style u-hover-white u-palette-4-base u-radius-7 u-btn-1"
@@ -632,6 +716,176 @@
   </section>
 
 
+  <section class="testimonials" id="testimonial">
+    <div class="container">
+  
+        <div class="row">
+          <div class="col-sm-12">
+            <div id="customers-testimonials" class="owl-carousel">
+  
+              <!--TESTIMONIAL 1 -->
+              <div class="item">
+                <div class="shadow-effect">
+                  <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
+                  <p class="testimonial-p">Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
+                </div>
+                <div class="testimonial-name">EMILIANO AQUILANI</div>
+              </div>
+              <!--END OF TESTIMONIAL 1 -->
+              <!--TESTIMONIAL 2 -->
+              <div class="item">
+                <div class="shadow-effect">
+                  <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
+                  <p class="testimonial-p">Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
+                </div>
+                <div class="testimonial-name">ANNA ITURBE</div>
+              </div>
+              <!--END OF TESTIMONIAL 2 -->
+              <!--TESTIMONIAL 3 -->
+              <div class="item">
+                <div class="shadow-effect">
+                  <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
+                  <p class="testimonial-p">Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
+                </div>
+                <div class="testimonial-name">LARA ATKINSON</div>
+              </div>
+              <!--END OF TESTIMONIAL 3 -->
+              <!--TESTIMONIAL 4 -->
+              <div class="item">
+                <div class="shadow-effect">
+                  <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
+                  <p class="testimonial-p">Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
+                </div>
+                <div class="testimonial-name">IAN OWEN</div>
+              </div>
+              <!--END OF TESTIMONIAL 4 -->
+              <!--TESTIMONIAL 5 -->
+              <div class="item">
+                <div class="shadow-effect">
+                  <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
+                  <p class="testimonial-p">Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
+                </div>
+                <div class="testimonial-name">MICHAEL TEDDY</div>
+              </div>
+              <!--END OF TESTIMONIAL 5 -->
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+      <!-- END OF TESTIMONIALS -->
+  <!-- partial -->
+    <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/owl.carousel.min.js'></script>
+  <script>
+  
+  jQuery(document).ready(function($) {
+              "use strict";
+              //  TESTIMONIALS CAROUSEL HOOK
+              $('#customers-testimonials').owlCarousel({
+                  loop: true,
+                  center: true,
+                  items: 3,
+                  margin: 0,
+                  autoplay: true,
+                  dots:true,
+                  autoplayTimeout: 8500,
+                  smartSpeed: 450,
+                  responsive: {
+                    0: {
+                      items: 1
+                    },
+                    768: {
+                      items: 2
+                    },
+                    1170: {
+                      items: 3
+                    }
+                  }
+              });
+            });
+  
+  </script>
+  
+  <style>
+  
+  .testimonials{
+    background-color: #1a1a1a;
+  }
+  .shadow-effect {
+          background: #e6ce77;
+          padding: 20px;
+          border-radius: 4px;
+          text-align: center;
+    border:1px solid #e6ce77;
+          box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.02);
+      }
+
+      .testimonial-p{
+        color: black;
+      }
+      #customers-testimonials .shadow-effect p {
+          font-family: inherit;
+          font-size: 17px;
+          line-height: 1.5;
+          margin: 0 0 17px 0;
+          font-weight: 300;
+      }
+      .testimonial-name {
+          margin: -17px auto 0;
+          display: table;
+          width: auto;
+          background: #e6ce77;
+          padding: 9px 35px;
+          border-radius: 12px;
+          text-align: center;
+          color: #000000;
+          box-shadow: 0 9px 18px rgba(0, 0, 0, 0.12), 0 5px 7px rgba(0,0,0,0.05);
+      }
+      #customers-testimonials .item {
+          text-align: center;
+          padding: 50px;
+          margin-bottom:80px;
+          opacity: .2;
+          transform: scale3d(0.8, 0.8, 1);
+          transition: all 0.3s ease-in-out;
+      }
+      #customers-testimonials .owl-item.active.center .item {
+          opacity: 1;
+          transform: scale3d(1.0, 1.0, 1);
+      }
+      .owl-carousel .owl-item img {
+          transform-style: preserve-3d;
+          max-width: 90px;
+          margin: 0 auto 17px;
+      }
+      #customers-testimonials.owl-carousel .owl-dots .owl-dot.active span,
+  #customers-testimonials.owl-carousel .owl-dots .owl-dot:hover span {
+          background: #e6ce77;
+          transform: translate3d(0px, -50%, 0px) scale(0.7);
+      }
+  #customers-testimonials.owl-carousel .owl-dots{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+  #customers-testimonials.owl-carousel .owl-dots .owl-dot{
+    display: inline-block;
+  }
+      #customers-testimonials.owl-carousel .owl-dots .owl-dot span {
+          background: #e6ce77;
+          display: inline-block;
+          height: 20px;
+          margin: 0 2px 5px;
+          transform: translate3d(0px, -50%, 0px) scale(0.3);
+          transform-origin: 50% 50% 0;
+          transition: all 250ms ease-out 0s;
+          width: 20px;
+      }
+  
+  </style>
+
+
   <!-- <footer class="ft-class" style=
   "cursor: pointer;">
     <div class="footer-row" style="margin-top: -28px;" >
@@ -697,6 +951,9 @@
           </a>
         
         </div>
+
+
+        
     
        
    
@@ -858,8 +1115,14 @@
 
   </script>
 
+  
+
 
 <style>
+
+
+
+
   .ft-class {
       background: #4c78f3;
       box-shadow: 3px 3px 3px 3px #ccc;
@@ -940,6 +1203,10 @@ integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmV
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script
   <!-- script -->
+
+
+
+
 
 </body>
 
